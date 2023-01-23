@@ -4,6 +4,6 @@ french_baseline_hyperparams = {'eval_metric':'poisson-nloglik', 'objective': 'co
 boston_split_ratio = {'train':0.6, 'validation':0.4, 'handout':0} 
 boston_baseline_hyperparams = {}
 french_params =  {"target_column": "Freq", "split_ratio":french_split_ratio, "params":french_baseline_hyperparams, "n_datapoints_cutoff":2500, "threshold":0.18}
-boston_params = {"target_column": "PRICE", "split_ratio":boston_split_ratio, "params":boston_baseline_hyperparams, "n_datapoints_cutoff":40, "threshold":0.07}
+boston_params = {"target_column": "PRICE", "split_ratio":boston_split_ratio, "params":boston_baseline_hyperparams, "n_datapoints_cutoff":5, "threshold":0.015}
 PARAMS = {"French":french_params, "Boston": boston_params}
   
